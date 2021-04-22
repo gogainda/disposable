@@ -5,7 +5,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ruby: [2.5, 2.6]
+        ruby: [2.5, 2.6, truffleruby-head]
         active_record: [5.0, 5.2, 6.0]
         dry_types: [0.13, 0.14, 0.15, 1.0, 1.1, 1.2]
 
